@@ -7,7 +7,13 @@ public class TemporaryTest {
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
+        
+        System.out.println("Enter a number");
         int n = s.nextInt();
+        
+        long counter = doContinue(n);
+        
+        System.out.println("Number is "+counter);
 
     }
 
@@ -15,7 +21,7 @@ public class TemporaryTest {
         int count = 1;
         
         
-        while (count <= input) {
+        while (count < input) {
             if (count>=input) {
                 count++;
                 break;
@@ -24,6 +30,7 @@ public class TemporaryTest {
                 count++;
             }
         }
+        return count;
     }
 
 }
