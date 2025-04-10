@@ -10,9 +10,13 @@ public class MethodFindPrimeNo {
         System.out.println("Enter a number");
         int number = s.nextInt();
 
-        String result = findPrimeNumber(number);
+        String result1 = findPrimeNumber(number);
+        String result2 = findEvenOrOdd(number);
+        String result3 = findFactorialNumber(number);
 
-        System.out.println(result);
+        System.out.println(result1);
+        System.out.println(result2);
+        System.out.println(result3);
 
     }
 
@@ -22,17 +26,57 @@ public class MethodFindPrimeNo {
 
         int count = 0;
 
-        for (int i = 1; i <= number; i++) {
+        if (number <= 0) {
+            result = (" Enter More Than Zero(0).");
+        } else {
 
-            if (number % i == 0) {
-                count++;
+            for (int i = 1; i <= number; i++) {
+
+                if (number % i == 0) {
+                    count++;
+                }
+            }
+            if (count == 2) {
+                result = (number + " is Prime Number.");
+            } else {
+                result = (number + " is not Prime Number.");
             }
         }
-        if (count == 2) {
-            result = (number + " is Prime Number");
+        return result;
+    }
+
+    public static String findEvenOrOdd(int number) {
+        String result = "";
+
+        if (number <= 0) {
+            result = (" Enter More Than Zero(0).");
         } else {
-            result = (number + " is not Prime Number");
+
+            if (number % 2 == 0) {
+                result = (number + " is Even Number.");
+            } else {
+                result = (number + " is Odd Number.");
+            }
         }
+        return result;
+    }
+
+    public static String findFactorialNumber(int input) {
+        String result = "";
+
+        int count = 1;
+        long factorial = 1;
+
+        if (input < 0) {
+            result = (" Enter Positive Number.");
+        } else {
+            do {
+                factorial *= count;
+                count++;
+            } while (count <= input);
+            result = "Factorial of  " + input + " is  " + factorial;
+        }
+
         return result;
     }
 
