@@ -79,5 +79,13 @@ public class MethodFindPrimeNo {
 
         return result;
     }
+    
+   public static String areaOfCircle(float inp){
+   
+     String result = "";
+     
+       
+     return result;
+   }
 
 }
