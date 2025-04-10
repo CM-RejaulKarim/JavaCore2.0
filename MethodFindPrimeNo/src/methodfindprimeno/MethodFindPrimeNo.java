@@ -10,13 +10,17 @@ public class MethodFindPrimeNo {
         System.out.println("Enter a number");
         int number = s.nextInt();
 
+        String result0 = positiveNegativeZero(number);
         String result1 = findPrimeNumber(number);
         String result2 = findEvenOrOdd(number);
         String result3 = findFactorialNumber(number);
+        String result4 = areaOfCircle(number);
 
-        System.out.println(result1);
-        System.out.println(result2);
-        System.out.println(result3);
+        System.out.println("1._ "+result0);
+        System.out.println("2._ "+result2);
+        System.out.println("3._ "+result1);
+        System.out.println("4._ "+result3);
+        System.out.println("5._ "+result4);
 
     }
 
@@ -79,13 +83,28 @@ public class MethodFindPrimeNo {
 
         return result;
     }
-    
-   public static String areaOfCircle(float inp){
-   
-     String result = "";
-     
-       
-     return result;
-   }
 
+    public static String areaOfCircle(float inp) {
+
+        double result = Math.PI * Math.pow(inp, 2);
+
+        String calculation = ("If "+inp +" is radius of circle then area is " + result);
+
+        return calculation;
+    }
+    
+    public static String positiveNegativeZero(int number){
+    
+        String result = "";
+            
+        if (number > 0) {
+            result=(number + " is Positive number.");
+        } else if (number < 0) {
+            result=(number + " is Negative number.");
+        } else {
+            result=(number + " is Zero");
+        }
+        
+        return result;
+    }
 }
