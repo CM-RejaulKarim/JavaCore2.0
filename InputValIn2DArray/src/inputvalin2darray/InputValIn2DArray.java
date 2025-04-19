@@ -21,7 +21,7 @@ public class InputValIn2DArray {
 
             for (int col = 0; col < myArray[row].length; col++) {
 
-                System.out.println("Enter Value for ");
+                System.out.println("Enter Value for row: "+(row+1)+" and Column: "+(col+1));
                 myArray[row][col] = s.nextInt();
 
             }
