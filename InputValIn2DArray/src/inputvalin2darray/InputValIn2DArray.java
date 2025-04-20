@@ -21,7 +21,7 @@ public class InputValIn2DArray {
 
             for (int col = 0; col < myArray[row].length; col++) {
 
-                System.out.println("Enter Value for row: "+(row+1)+" and Column: "+(col+1));
+                System.out.println("Enter Value for row: " + (row + 1) + " and Column: " + (col + 1));
                 myArray[row][col] = s.nextInt();
 
             }
@@ -40,7 +40,7 @@ public class InputValIn2DArray {
             }
             System.out.println("\n");
         }
-sum2dArray(myArray);
+        sum2dArray(myArray);
 //        System.out.println(Arrays.deepToString(myArray));
     }
 

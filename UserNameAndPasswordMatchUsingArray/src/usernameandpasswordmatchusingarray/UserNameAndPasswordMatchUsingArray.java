@@ -17,19 +17,21 @@ public class UserNameAndPasswordMatchUsingArray {
 
             
 
-            if (!uName.equalsIgnoreCase(sysNames[i])) {
-                System.out.println("InValid userName");
-            } else {
+            if (uName.equalsIgnoreCase(sysNames[i])) {
                 int index = i;
 
                 System.out.println("Enter Password");
                 int pass = s.nextInt();
 
-                if (pass.equals(passwords[index])) {
+                if (pass == passwords[index]) {
                     System.out.println("Welcome");
                 } else {
                     System.out.println("Invalid Password");
                 }
+                
+            } else {
+                
+                System.out.println("InValid userName");
             }
             break;
        
