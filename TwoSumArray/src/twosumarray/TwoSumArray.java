@@ -1,20 +1,35 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package twosumarray;
 
-/**
- *
- * @author Admin
- */
+
 public class TwoSumArray {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
-        // TODO code application logic here
+       
+       int[] nums1 = {2,7,11,15};
+       int target1 = 9;
+        
+       int[] nums2 = {3,2,4};
+       int target2 = 6;
+        
+       int[] nums3 = {3,3};
+       int target3 = 6;
+       
+        for (int i = 0; i < nums1.length; i++) {
+            
+        }
+       
+        
+        
+    }
+    public void twoSum(int nums[] , int target){
+    
+        for (int i = 0; i < nums.length; i++) {
+            
+            if
+        }
+    
     }
     
 }
