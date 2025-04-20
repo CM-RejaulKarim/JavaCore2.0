@@ -26,7 +26,7 @@ public class VowelOrConsonant {
         System.out.println("Enter a Latter ");
         String uInp = sc.next();
 
-        if (uInp.equalsIgnoreCase("a")
+        if (    uInp.equalsIgnoreCase("a")
                 || uInp.equalsIgnoreCase("e")
                 || uInp.equalsIgnoreCase("i")
                 || uInp.equalsIgnoreCase("o")
