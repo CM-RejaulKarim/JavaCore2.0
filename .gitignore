@@ -66,3 +66,4 @@ OperatorHome/nbproject/private/private.properties
 StringHome/nbproject/private/private.properties
 TestDataType/nbproject/private/private.properties
 *.properties
+/LearnClassAndObject/build/
