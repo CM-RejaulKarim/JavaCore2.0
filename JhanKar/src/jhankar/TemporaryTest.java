@@ -5,8 +5,18 @@ import java.util.Scanner;
 public class TemporaryTest {
 
     public static void main(String[] args) {
-
+        
         Scanner s = new Scanner(System.in);
+        
+        int len = s.nextInt();
+        
+        int [] arra = new int[len];
+        
+        System.out.println();
+        System.out.println();
+        System.out.println();
+
+        
 
         System.out.println("Enter a date");
         int day = s.nextInt();
