@@ -82,6 +82,7 @@ TestDataType/nbproject/private/private.properties
 /MaxMinFiveInput/build/
 /MaxMinFiveInput/dist/
 /PractiseMaxMinUsingArray/dist/
+<<<<<<< Updated upstream
 /TempTest/nbproject/private/
 /TempTest/build/
 /TestFibonacci/nbproject/private/
@@ -96,3 +97,6 @@ TestDataType/nbproject/private/private.properties
 /TestBubbleSort/nbproject/private/
 /TestBubbleSort/build/
 /TestBubbleSort/dist/
+=======
+/ClassTestBeforeExam/nbproject/private/
+>>>>>>> Stashed changes
