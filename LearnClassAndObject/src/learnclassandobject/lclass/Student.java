@@ -95,5 +95,11 @@ public class Student {
         this.name = name;
         this.contact = contact;
     }
+    
+    public void aboutStu( int id, String name){
+    this.id = id;
+    this.name = name;
+    
+    }
 
 }

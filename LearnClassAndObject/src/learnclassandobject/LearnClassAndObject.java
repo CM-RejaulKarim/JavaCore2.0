@@ -13,12 +13,17 @@ public class LearnClassAndObject {
         
         Student reja = new Student(1287759, "Rejaul", "Shankar", "cmrejaulkarim@gmail.com", "01768196876", 1, 1);
         Student atik = new Student();
+        Student rejaul = new Student();
+        
+        atik.aboutStu(45628, "atik");
+        rejaul.stuSummery(5646, "reja64", "567");
         
         
         
         
         System.out.println(reja);
-        System.out.println(reja.stuSummery(212, "reja", 125));
+        System.out.println(rejaul);
+        System.out.println(atik);
 //        Circle c = new Circle(5);
 //        
 //        System.out.println(c.getArea());
