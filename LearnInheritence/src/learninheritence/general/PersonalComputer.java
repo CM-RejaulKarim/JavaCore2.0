@@ -2,17 +2,17 @@
 package learninheritence.general;
 
 
-public class Shop {
+public class PersonalComputer {
   
     private boolean grocery;
     private String vegatables;
     private boolean packet;
     private boolean loose;
 
-    public Shop() {
+    public PersonalComputer() {
     }
 
-    public Shop(boolean grocery, String greenVegatables, boolean packet, boolean loose) {
+    public PersonalComputer(boolean grocery, String greenVegatables, boolean packet, boolean loose) {
         this.grocery = grocery;
         this.vegatables = greenVegatables;
         this.packet = packet;
